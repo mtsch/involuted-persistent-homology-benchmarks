@@ -1,0 +1,55 @@
+\begin{tikzpicture}[/tikz/background rectangle/.style={fill={rgb,1:red,1.0;green,1.0;blue,1.0}, draw opacity={1.0}}, show background rectangle]
+\begin{axis}[point meta max={nan}, point meta min={nan}, legend cell align={left}, title={gcycle}, title style={at={{(0.5,1)}}, anchor={south}, font={{\fontsize{14 pt}{18.2 pt}\selectfont}}, color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, rotate={0.0}}, legend style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, line width={1}, solid, fill={rgb,1:red,1.0;green,1.0;blue,1.0}, fill opacity={1.0}, text opacity={1.0}, font={{\fontsize{8 pt}{10.4 pt}\selectfont}}, text={rgb,1:red,0.0;green,0.0;blue,0.0}, at={(0.02, 0.98)}, anchor={north west}}, axis background/.style={fill={rgb,1:red,1.0;green,1.0;blue,1.0}, opacity={1.0}}, anchor={north west}, xshift={1.0mm}, yshift={-1.0mm}, width={150.4mm}, height={99.6mm}, scaled x ticks={false}, xlabel={N}, x tick style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, opacity={1.0}}, x tick label style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, opacity={1.0}, rotate={0}}, xlabel style={at={(ticklabel cs:0.5)}, anchor=near ticklabel, font={{\fontsize{11 pt}{14.3 pt}\selectfont}}, color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, rotate={0.0}}, xmajorgrids={true}, xmin={-19.7}, xmax={1029.7}, xtick={{0.0,200.0,400.0,600.0,800.0,1000.0}}, xticklabels={{$0$,$200$,$400$,$600$,$800$,$1000$}}, xtick align={inside}, xticklabel style={font={{\fontsize{8 pt}{10.4 pt}\selectfont}}, color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, rotate={0.0}}, x grid style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={0.1}, line width={0.5}, solid}, axis x line*={left}, x axis line style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, line width={1}, solid}, scaled y ticks={false}, ylabel={t [s]}, y tick style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, opacity={1.0}}, y tick label style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, opacity={1.0}, rotate={0}}, ylabel style={at={(ticklabel cs:0.5)}, anchor=near ticklabel, font={{\fontsize{11 pt}{14.3 pt}\selectfont}}, color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, rotate={0.0}}, ymajorgrids={true}, ymin={-1.4072775497}, ymax={48.3226079177}, ytick={{0.0,10.0,20.0,30.0,40.0}}, yticklabels={{$0$,$10$,$20$,$30$,$40$}}, ytick align={inside}, yticklabel style={font={{\fontsize{8 pt}{10.4 pt}\selectfont}}, color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, rotate={0.0}}, y grid style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={0.1}, line width={0.5}, solid}, axis y line*={left}, y axis line style={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, line width={1}, solid}]
+    \addplot[color={rgb,1:red,0.0;green,0.6056;blue,0.9787}, name path={2c0f9a79-93c9-4946-8f71-f55a841fd282}, draw opacity={1.0}, line width={1}, solid, mark={square*}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, fill={rgb,1:red,0.0;green,0.6056;blue,0.9787}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}]
+        table[row sep={\\}]
+        {
+            \\
+            10.0  0.000172039  \\
+            100.0  0.013063101  \\
+            200.0  0.105457603  \\
+            300.0  0.400149295  \\
+            400.0  1.020904678  \\
+            500.0  2.098224757  \\
+            600.0  3.911826257  \\
+            700.0  6.555050145  \\
+            800.0  9.978348789  \\
+            900.0  14.661777612  \\
+            1000.0  21.096662935  \\
+        }
+        ;
+    \addlegendentry {cohomology}
+    \addplot[color={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, name path={3cc9f726-b383-408e-a2d3-918dfc79e2e7}, draw opacity={1.0}, line width={1}, solid, mark={diamond*}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, fill={rgb,1:red,0.8889;green,0.4356;blue,0.2781}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}]
+        table[row sep={\\}]
+        {
+            \\
+            10.0  0.000216031  \\
+            100.0  0.01471482  \\
+            200.0  0.110723905  \\
+            300.0  0.414637035  \\
+            400.0  1.045731347  \\
+            500.0  2.167600779  \\
+            600.0  4.050236808  \\
+            700.0  6.482803495  \\
+            800.0  10.144326677  \\
+            900.0  14.824627951  \\
+            1000.0  21.393733485  \\
+        }
+        ;
+    \addlegendentry {involuted}
+    \addplot[color={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, name path={26b8c35a-aa6c-4b4f-ba3d-acfc7d5863dc}, draw opacity={1.0}, line width={1}, solid, mark={*}, mark size={3.0 pt}, mark repeat={1}, mark options={color={rgb,1:red,0.0;green,0.0;blue,0.0}, draw opacity={1.0}, fill={rgb,1:red,0.2422;green,0.6433;blue,0.3044}, fill opacity={1.0}, line width={0.75}, rotate={0}, solid}]
+        table[row sep={\\}]
+        {
+            \\
+            10.0  0.007221601  \\
+            100.0  0.103510328  \\
+            200.0  0.672926682  \\
+            300.0  2.481873839  \\
+            400.0  6.668628342  \\
+            500.0  14.15930127  \\
+            600.0  27.351875714  \\
+            700.0  46.915158329  \\
+        }
+        ;
+    \addlegendentry {Eirene}
+\end{axis}
+\end{tikzpicture}
